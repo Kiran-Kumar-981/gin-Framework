@@ -111,5 +111,3 @@ func SendTicket(userData UserData) {
 	ticket := fmt.Sprintf("%v tickets for %v %v", userData.TicketsBooked, userData.FirstName, userData.LastName)
 	fmt.Printf("Sending ticket:\n %v \nto email address %v\n", ticket, userData.Email)
 }
-
-//as i integrated usertickets must be more than 0. so i can avoid it here it with html page so i didn't have to verify it in middleware
