@@ -31,7 +31,7 @@ This is a Gin framework-based command-line interface (CLI) application for booki
 
 # Dependencies
 
-- GO (1.22.2 or later
+- GO 1.22.2 or later
 - Gin framework latest
 - MySQL driver
 - Go-SQL driver
